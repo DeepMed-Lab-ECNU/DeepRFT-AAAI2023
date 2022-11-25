@@ -60,8 +60,8 @@ class util_of_lpips():
 
 
 if __name__ == '__main__':
-    real_way = '/home/ubuntu/106-48t/personal_data/mxt/Datasets/Deblur/GoPro/test/sharp'
-    fake_Way = '/home/ubuntu/106-48t/personal_data/mxt/exp_results/images_deblur/Deblurring_WNAFNet_32_3stage2b_ffc3gelusin_freqloss/GoPro'
+    real_way = ''
+    fake_Way = ''
     img_list_A = glob.glob(real_way + '/*')
     # img_list_B = glob.glob(fake_Way + '/*')
     img_list_A.sort()
