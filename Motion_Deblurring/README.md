@@ -15,7 +15,7 @@ python generate_patches_gopro.py
 ./train_4gpu.sh Motion_Deblurring/Options/FNAFNet-width32-freqloss-4gpu.yml
 ```
 
-**Note:** The above training script uses 4 GPUs by default. To use any other number of GPUs, modify [Restormer/train.sh](../train.sh) and [Motion_Deblurring/Options/Deblurring_Restormer.yml](Options/Deblurring_Restormer.yml)
+**Note:** The above training script uses 4 GPUs by default. 
 
 ## Evaluation
 
