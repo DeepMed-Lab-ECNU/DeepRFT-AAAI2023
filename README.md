@@ -4,7 +4,7 @@
 Xintian Mao, Yiming Liu, Fengze Liu, Qingli Li, Wei Shen and Yan Wang
 
 
-**Paper**: xxx
+**Paper**: https://arxiv.org/abs/2111.11745
 
 **old version**: https://github.com/INVOKERer/DeepRFT
 
