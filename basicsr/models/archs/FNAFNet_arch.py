@@ -477,19 +477,7 @@ class FNAFNet(nn.Module):
         window_size_d_fft = window_size_e_fft[::-1]
         window_sizex_d = window_sizex_e[::-1]
 
-        # NAFBlock = WNAFBlock_ffc_block
-        # NAFBlock = WNAFBlock_ffc2_block
-        # NAFBlock = WNAFBlock_ffc2sin_block
-        # NAFBlock = WNAFBlock_ffcp2_block
-        # NAFBlock = WNAFBlock_ffc3_2block
-        # NAFBlock = WNAFBlock_ffc4_block
-        # NAFBlock = WNAFBlock_ffc3_sin_2block
         NAFBlock = WNAFBlock_ffc3_gelu_sin_2block
-
-        # NAFBlock = WNAFBlock_ffc3_gelu_sin_2block_flops
-        # NAFBlock = WNAFBlock_ffc3_gelu_nosin_2block
-
-        # NAFBlock = WNAFBlock
 
         self.intro = nn.Conv2d(in_channels=img_channel, out_channels=width, kernel_size=3, padding=1, stride=1, groups=1,
                               bias=True)
