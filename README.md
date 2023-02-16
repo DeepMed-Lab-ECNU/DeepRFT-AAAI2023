@@ -1,6 +1,6 @@
 
 
-# Intriguing Findings of Frequency Selection for Image Deblurring (AAAI 2023)
+# Intriguing Findings of Frequency Selection for Image Deblurring (AAAI 2023 Oral)
 Xintian Mao, Yiming Liu, Fengze Liu, Qingli Li, Wei Shen and Yan Wang
 
 
